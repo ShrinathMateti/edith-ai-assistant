@@ -11,7 +11,7 @@ import {
   orderBy,
 } from "firebase/firestore";
 
-// Updated to accept the user's name dynamically
+
 const getGreeting = (name) => {
   const hour = new Date().getHours();
   const personalGreeting = name ? `, ${name}` : "";
