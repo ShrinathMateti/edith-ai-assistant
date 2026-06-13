@@ -104,7 +104,7 @@ export default function Login({ onLoginSuccess }) {
             {isSignUp ? "Create your account" : "Welcome back"}
           </h2>
           <p className="text-xs text-slate-400 font-medium mt-1">
-            {isSignUp ? "Get started with Edith Study Assistant" : "Log in to continue your workspace sessions"}
+            {isSignUp ? "Get started with Edith AI Assistant" : "Log in to continue your workspace sessions"}
           </p>
         </div>
 
